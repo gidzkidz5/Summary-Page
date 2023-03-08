@@ -1,0 +1,214 @@
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0;
+    
+}
+
+.main-container {
+    /* width: 100%; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first-container {
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 0% 0% 8% 8%;
+    height: fit-content;
+    padding: 5% 6% 7% 6%;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    justify-content: center;
+    align-items: center;
+}
+
+.first-container h4 {
+    opacity: 0.65;
+    line-height: 40px;
+    /* margin-top: 2%; */
+}
+
+
+.total-score {
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    margin: 25px auto 15px;
+    width: 133px;
+    height: 133px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.total-score h1 {
+    font-size: 2.8rem;
+} 
+
+.total-score p {
+    font-size: 0.8rem;
+    opacity: 0.65;
+}
+
+.bottom-text {
+    margin: 3% 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-text h2{
+    margin: 5%;
+    font-size:1.4rem;
+    
+}
+.bottom-text p{
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.second-container {
+    
+    margin: 5%;
+}
+
+.score-summary {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    display:grid;
+    gap: 17px;
+}
+
+.score {
+    display:flex;
+    padding: 2%;
+    line-height: 42px;
+    border-radius: 3%/18%;
+}
+
+.score p{
+    font-size: 0.9rem;
+}
+
+.score-cat {
+    width:67%;
+    padding-left: 3%;
+}
+
+#reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+#reaction p{
+    color: hsla(0, 100%, 67%, 1.0);
+}
+
+#memory {
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+#memory p{
+    color: hsla(39, 100%, 56%, 1.0);
+}
+
+#verbal {
+    background-color:hsla(166, 100%, 37%, 0.1);
+}
+
+#verbal p{
+    color: hsl(166, 100%, 37%);
+}
+
+#visual {
+    background-color:hsla(234, 85%, 45%, 0.1);
+}
+
+#visual p{
+    color: hsla(234, 85%, 45%,1.0);
+}
+
+.btn {
+    -webkit-border-radius: 35;
+    -moz-border-radius: 35;
+    border-radius: 22px;
+    border:0px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    background: #2d3445;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 95%;
+    margin:auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-self: center;
+    justify-items:center ;
+    line-height: 30px;
+  }
+  
+  .btn:hover {
+    background: #2200ab;
+    background-image: -webkit-linear-gradient(top, #2200ab, #1c1a8a);
+    background-image: -moz-linear-gradient(top, #2200ab, #1c1a8a);
+    background-image: -ms-linear-gradient(top, #2200ab, #1c1a8a);
+    background-image: -o-linear-gradient(top, #2200ab, #1c1a8a);
+    background-image: linear-gradient(to bottom, #2200ab, #1c1a8a);
+    text-decoration: none;
+  }
+  .end {
+    text-align: center;
+  }
+
+@media only screen and (min-width:1400px) {
+    .main-container {
+        /* width: 100%; */
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-top: 5%;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .first-container {
+        background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+        border-radius: 8% 8% 8% 8%;
+        height: auto;
+        width:10%;
+        padding: 2% 2% 2% 2%;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .second-container {
+        margin: 0%;
+        margin-left:20px;
+        width: 13%
+    
+    }      
+
+    .score-summary {
+        margin-top: 18px;
+        margin-bottom: 18px;
+        display:grid;
+        gap: 17px;
+        
+    }
+    .score-cat {
+        width:70%;
+        padding-left: 3%;
+    }
+    .first-container h4 {
+        opacity: 0.65;
+        line-height: 20px;
+        /* margin-top: 2%; */
+        font-size: 1.4rem;
+    }
+    
+} 
