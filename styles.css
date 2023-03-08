@@ -177,7 +177,7 @@
         background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
         border-radius: 8% 8% 8% 8%;
         height: auto;
-        width:10%;
+        width:15%;
         padding: 2% 2% 2% 2%;
         text-align: center;
         color: hsl(0, 0%, 100%);
@@ -189,7 +189,7 @@
     .second-container {
         margin: 0%;
         margin-left:20px;
-        width: 18%
+        width: 20%;
     
     }      
 
@@ -201,7 +201,7 @@
         
     }
     .score-cat {
-        width:70%;
+        width:60%;
         padding-left: 3%;
     }
     .first-container h4 {
